@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600&family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap');
+
+* {
+     font-family: League Spartan;
+}
+
+h1 {
+     cursor: default;
+}
+
+h2 {
+     cursor: default;
+}
+p {
+     cursor: default;
+}
+hr {
+     width:50%;
+     margin:0 auto;
+ }
+ 
+a {
+     text-decoration: none;
+     color: black;
+     font-weight: 400;
+}
+
+li {
+     text-decoration: none;
+     list-style-type: none;
+}
+
+body {
+     margin: auto;
+     height: 2500px;
+}
+/* Arclight Navigation Bar and Logo */
+
+.inline {
+     display: inline;
+     padding: 14px;
+     float: right;
+     font-size: 18px;
+}
+
+.arclogo {
+     color: #0021ff;
+     font-weight: 600;
+     font-size: 30px;
+}
+
+/* Main Home */
+
+.main-home-wrapper {
+     background-color: rgba(0, 0, 0, 0) ;
+     width: 81px;
+     height: 81px;
+     
+}
+
+
+
+.bluebox {
+     margin-left: -10px;
+}
+
+.arc-yr {
+     color: #0021ff;
+     text-align: center;
+     font-weight: 600 ;
+     font-size: 75px;
+     transition: 400ms;
+     cursor: default;
+}
+
+.arc-yr:hover{
+     font-size: 80px;
+}
+
+.abt-wrapper {
+     background-color: rgba(0, 255, 255, 0);
+     width: 540px;
+     margin-left: auto;
+     margin-right: auto
+}
+
+.about {
+     text-align: center;
+     font-weight: 400;
+     font-size: 30px;
+     
+
+}
+
+
+/* Button Elements */
+
+
+.main-btn {
+     margin-left: auto;
+     margin-right: auto;
+     width: 600px;
+     height: 50px;
+     background-color: #ff282800;
+}
+.inline1 {
+     text-align: center;
+     display: inline;
+     padding: 10px;
+}
+
+.inspire {
+     color: #0021ff;
+     text-align: center;
+}
+.white {
+     color: white;
+     background-color: #0021ff;
+     font-size: 30px;
+     border-radius: 4px;
+
+}
+
+
+.Product-btn {
+     background-color: #0688fa;
+     color: white;
+     font-size: 25px;
+     display: inline;
+     padding: 9px 23px;
+     text-shadow: 0px 0px 2px #065dff;
+     transition: 300ms ease;
+
+}
+
+.Product-btn:hover {
+     background-color: #065dff;
+     padding: 10px 24px;
+}
+.Learn-btn {
+     border: 2px solid #2f9eff;
+     background-color: #ffffff;
+     color: #0021ff;
+     font-size: 25px;
+     display: inline;
+     padding: 7px 23px;
+     transition: 300ms ease;
+}
+
+.Learn-btn:hover {
+     background-color: #00000015;
+     padding: 9px 24px;
+}
+.center {
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.paddi {
+     padding:10px ;
+     display: inline;
+     margin-left: auto;
+     margin-right: auto;
+     
+     
+     
+}
+
+main-btn2 {
+     background-color: #319fff;
+     
+}
+
+.padd {
+     margin-left: auto;
+     margin-right: auto;
+     bottom: 10px;
+     
+}
+
+/* News Page */
+
+.newsimg {
+     width: 25%;
+     padding-right: 10px;
+     padding-top: 45px;
+     padding-left: 25px;
+     
+}
+.newsimg1 {
+     width: 25%;
+     height: 100px;
+     padding-right: 10px;
+     padding-top: 45px;
+     padding-left: 25px;
+     
+}
+
+
+
+.news-wrapper {
+     background-color: #ffffff;
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.News {
+     text-align: center;
+}
+
+.news-boxwrapper {
+     width: 600px;
+     height: 180px;
+     border: 1px solid #707070;
+     transition: 300ms ease;
+}
+
+.news-boxwrapper:hover {
+     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.432);
+     width: 605px;
+}
+
+.su {
+     font-weight: 600;
+     font-size: 32px;
+     position: absolute;
+     margin-top: -105px;
+     margin-left: 190px;
+}
+
+.desc {
+     width: 300px;
+     background-color: #0688fa00;
+     color: #4B4B4B;
+     margin-top: -67px;
+     margin-left: 190px;
+     font-size: 18px;
+     opacity: 70%;
+}
+.desc1 {
+     width: 410px;
+     background-color: #0688fa00;
+     color: #4B4B4B;
+     margin-top: -67px;
+     margin-left: 190px;
+     font-size: 18px;
+     opacity: 70%;
+}
+
+.lwhwh {
+     color: #0688fa;
+     text-decoration: underline;
+     margin-left: 190px;
+     position: absolute;
+     margin-top: -15px;
+     font-size: 14px;
+}
+
+.commit {
+     text-align: center;
+     color: #0021ff;
+     font-size: 50px;
+     transition: 300ms ease;
+     cursor: default;
+     
+}
+
+.commit:hover {
+     font-size: 55px;
+}
+
+.header-secondary {
+     background-color: #319fff00;
+     width: 600px;
+}
+
+.loc {
+     color: #0021ff;
+     background-color: #ffffff;
+     border: 2px solid #0009FF;
+     padding: 7px 6px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 21px;
+     transition: 300ms ease;
+     
+     
+}
+
+.loc:hover {
+     background-color: #0021ff;
+     color: #ffffff;
+}
+
+.secondary-btn {
+     margin-left: auto;
+     margin-right: auto;
+     width: 229px;
+     height: 0px;
+     background-color: #ff2e2e00;
+}
+
+/* How Were Helping Others Section */
+
+.helping {
+     color: #0021ff ;
+     text-align: center;
+}
+
+.helpimg {
+     border-radius: 35px;
+     height: 400px;
+     width: 300px;
+     overflow: hidden;
+     background-size: contain;
+     object-fit: contain;
+     
+}
+
+.disabled-container {
+     background-color: #0021ff;
+     width: 300px;
+     height: 500px;
+     border-radius: 15px;
+}
+
+/* Other Img Wrappers */
+
+.others-img_wrapper {
+     background-color: #9e9ea100;
+     width: 1000px;
+     height: 600px;
+}
+
+.disabled {
+     width: 520px;
+     height: 400px;
+     
+     
+     
+
+
+}
+.graduate {
+     width: 520px;
+     height: 400px;
+     
+     
+     
+
+
+}
+.medical {
+     width: 520px;
+     height: 400px;
+     
+     
+     
+
+
+}
+.humanitarian {
+     width: 520px;
+     height: 400px;
+     
+     
+
+}
+
+.help1 {
+     border: 2px solid #3134f500;
+     width: 200px;
+     height: 500px;
+     margin-left: 0px;
+     margin-top: 50px;
+     position: absolute;
+     margin-right: auto;
+     overflow: hidden;
+     object-fit: contain;
+}
+.help2 {
+     border: 2px solid #3134f500;
+     width: 200px;
+     height: 500px;
+     margin-left: 250px;
+     margin-top: 50px;
+     position: absolute;
+     margin-right: auto;
+     overflow: hidden;
+     object-fit: contain;
+}
+.help3{
+     border: 2px solid #3134f500;
+     width: 200px;
+     height: 500px;
+     margin-left: 500px;
+     margin-top: 50px;
+     position: absolute;
+     margin-right: auto;
+     overflow: hidden;
+     object-fit: contain;
+}
+.help4{
+     border: 2px solid #3134f500;
+     width: 200px;
+     height: 500px;
+     margin-left: 750px;
+     margin-top: 50px;
+     position: absolute;
+     margin-right: auto;
+     overflow: hidden;
+     object-fit: contain;
+}
+
+.disba-text {
+     color: black;
+     font-size: 18px;
+
+}
+
+.hover-eft {
+     transition: 300ms ease;
+}
+
+.hover-eft:hover {
+     box-shadow: 3px 3px 10px rgba(26, 45, 216, 0.329);
+}
+
+/* Career Section */
+
+.career {
+     background-color: #0688fa00;
+     width: 400px;
+     height: 200px;
+     
+}
+.career-btn_container {
+     background-color: #06f2fa00;
+     width: 136px;
+     height: 100px;
+     
+}
+.career-main {
+     color: #0021ff;
+     text-align: center;
+     font-size: 40px;
+     transition: 300ms ease;
+}
+
+.career-main:hover {
+     color: #0672ff;
+     font-size: 42px;
+}
+
+.career-btn {
+     color: white;
+     background-color: #0022ff;
+     padding: 9px 40px;
+     font-size: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     transition: 300ms ease;
+}
+
+.career-btn:hover {
+     background-color: #0022ff;
+     font-size: 22px;
+     box-shadow: 0px 2px 100px 4px #0021ff;
+}
+
+/* Footer */
+
+.subscribe {
+     background-color: #2974ff1f;
+     width: auto;
+     height: 200px;
+     margin-top: 100px;
+     padding-top: 10px;
+}
+
+.Subscribe {
+     text-align: center;
+     color: #0021ff;
+     font-size: 32px;
+     font-weight: 600;
+     
+     
+
+}
+
+.Noti {
+     color: rgb(0, 0, 0);
+     text-align: center;
+     
+     
+}
+
+.blue {
+     color: #0021ff;
+}
+
+.Email-Enter {
+     background-color: #ffffff;
+     border: none;
+     padding: 12px 30px;
+     border-width: 0% none;
+     transition: 300ms ease;
+     
+     
+}
+
+.Email-Enter:focus {
+     border: none;
+     border-width: 0px none;
+     outline: none;
+}
+
+.Email-Enter:hover {
+     padding: 14px 30px;
+     background-color: rgba(255, 255, 255, 0.952)
+}
+.Email-Submit {
+     background-color: #0021ff;
+     color: rgb(255, 255, 255);
+     border: none;
+     padding: 12px 30px;
+     transition: 300ms ease;
+}
+
+.Email-Submit:hover {
+     background-color: #0008ffb9;
+     padding: 14px 30px;
+     cursor: pointer;
+}
+
+.form1 {
+     text-align: center;
+     
+
+
+
+         
+}
+
+form {
+     margin: 0px;
+     padding: 0px;
+     
+
+}
+
+
+
+/* Main Footer */
+
+.main-footer {
+     background-color: ;
+     width: auto;
+     height: 300px;
+     
+}
+
+
+/* Animation Stuff Idk */
+
+@keyframes progress {
+     100%{
+         right: 100%;
+     }
+ }
+ 
+ .Enter-Submit{
+     padding: 12px 20px;
+     font-size: 20px;
+     outline: none;
+     border: none;
+     background-color: #4070f4;
+     color: #fff;
+     border-radius: 6px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+
+ .main-footer {
+      background-color: #065dff2d;
+      width: auto;
+      
+ }
+ 
+ 
+
+/* For Mobile */
+@media screen and (max-width: 925px) {
+     .bluebox {
+       width: 30px;
+     }
+
+     .news-boxwrapper {
+          width: 550px;
+     }
+
+     .news-boxwrapper:hover {
+          width: 555px;
+     }
+
+     .desc1 {
+          font-size: 15px;
+          height: 55px;
+          width: 355px;
+          background-color: #00000000;
+     }
+     .desc {
+          font-size: 15px;
+          height: 55px;
+          width: 355px;
+          background-color: #00000000;
+     }
+
+
+     }
+
+
+/* Main Footer */
+
+
+
+
+  
+   @media screen and (max-width: 667px) {
+       
+        
+     
+   }
